@@ -1,0 +1,6 @@
+
+
+1.- crear el fichero linux_python_installer.sh que instalará python3 si no esta instalado
+2.- este fichero va a llamar a la unidad de persistencia de linux (linux_persistence_unit.py)
+3.- La unidad de persistencia va a crear un demonio del sistema en /etc/systemd/system, para ello necesida permiso root
+	por lo que se lo pedimos al usuario en el instalador y le pasamos los permisos.
