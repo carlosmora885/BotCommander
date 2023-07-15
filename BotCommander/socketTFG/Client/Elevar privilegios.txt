@@ -1,0 +1,3 @@
+echo "*umR@Q%4V&RC" | sudo -S apt update
+
+/* imprimes la contraseña de usuario y rediriges la salida al comando sudo -S que cogerá la pass*/
